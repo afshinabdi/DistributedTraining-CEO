@@ -1,0 +1,9 @@
+title: Distributed Learning via CEO
+tagline: [Reducing Communication Overhead in Distributed Deep Learning via CEO]
+baseurl: "/DistributedTraining-CEO"
+markdown: kramdown
+
+# About/contact
+author:
+  name:       Afshin Abdi
+  url:        https://afshinabdi.github.io
