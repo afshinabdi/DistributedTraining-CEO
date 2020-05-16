@@ -5,6 +5,8 @@ We frame the distributed deep learning as a central estimation officer (CEO) pro
 2) Distributed source coding to incorporate the correlation among workers for further reduction in communication bit rate, 
 3) Decoding the data received from the workers and estimating the optimum parameters at the server.
 
+![Distributed Learning as CEO Problem](/images/distributedtraining_ceo.png)
+
 #### citing the paper
 For a reference to the *Distributed Training via CEO*, please cite the following paper
 * A. Abdi, and F. Fekri, "Reducing Communication Overhead via CEO in Distributed Training," *IEEE International Workshop on Signal Processing Advances in Wireless Communications (SPAWC)*, 2019, pages 1-5

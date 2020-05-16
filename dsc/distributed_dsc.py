@@ -3,7 +3,7 @@
 """
 
 import numpy as np
-import arithmetic_codec as ac_codec
+import source_coding.arithmetic_codec as ac_codec
 
 default_seed = 798946
 min_seed = 1000

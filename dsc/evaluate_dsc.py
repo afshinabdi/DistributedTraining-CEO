@@ -7,12 +7,11 @@ import scipy.stats as st
 import numpy as np
 import tensorflow as tf
 
-from FullyConnected import FCModel
-from mnist_dataset import MNISTDataset
-import compression as cmp
-import discus_engine as dsc_engine
-import ldpc_design as ldpc_design
-import CodeMaker as code_maker
+from models.FullyConnected import FCModel
+from models.mnist_dataset import MNISTDataset
+import source_coding.discus.discus_engine as dsc_engine
+import source_coding.discus.ldpc_design as ldpc_design
+import source_coding.discus.CodeMaker as code_maker
 import distributed_dsc as dt_dsc
 
 training_epochs = 5
@@ -25,10 +24,10 @@ iter_per_epoch = 60000 // total_batch_size
 decay_step = epochs_per_decay * iter_per_epoch
 max_iterations = training_epochs * iter_per_epoch
 
-output_folder = 'D:/Simulations/DistributedDataTraining/CEO/FC/'
+output_folder = 'CEO/FC/'
 output_folder = output_folder + training_algorithm + '/exp{}/'
-mnist_folder = 'D:/DataBase/MNIST/raw'
-ldpc_filename = 'D:/Simulations/DistributedDataTraining/CEO/FC/ldpc_codes_N{}.mat'
+mnist_folder = 'MNIST/raw'
+ldpc_filename = 'CEO/FC/ldpc_codes_N{}.mat'
 
 
 def generate_random_parameters(layer_shapes):
