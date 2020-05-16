@@ -18,6 +18,6 @@ title: {{ site.name }}
 ## III. How to Cite?
 For a reference to this work, please cite the following paper:
 
-* [**Conference Paper:**] A. Abdi and F. Fekri, ``Reducing communication overhead via CEO in distributed training,'' in IEEE 20th
+* [**Conference Paper:**] A. Abdi and F. Fekri, "Reducing communication overhead via CEO in distributed training," in IEEE 20th
 International Workshop on Signal Processing Advances in Wireless Communications (SPAWC), 2019, pp. 1-5.
 
